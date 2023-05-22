@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="484.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Регистрация">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="104.0" prefWidth="681.0" style="-fx-background-color: #4567;">
+         <children>
+            <Text layoutX="202.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мой парсер" wrappingWidth="279.13671875">
+               <font>
+                  <Font name="Impact" size="49.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="380.0" prefHeight="104.0" prefWidth="681.0" style="-fx-background-color: #4567;" />
+      <TextField fx:id="фамилия" layoutX="386.0" layoutY="172.0" prefHeight="35.0" prefWidth="206.0" promptText="Фамилия" />
+      <TextField fx:id="имя" layoutX="111.0" layoutY="172.0" prefHeight="35.0" prefWidth="198.0" promptText="Имя" />
+      <TextField fx:id="почта" layoutX="111.0" layoutY="235.0" prefHeight="35.0" prefWidth="198.0" promptText="Почта" />
+      <TextField fx:id="пароль" layoutX="386.0" layoutY="236.0" prefHeight="35.0" prefWidth="206.0" promptText="пароль" />
+      <Button fx:id="регистрация" layoutX="298.0" layoutY="320.0" mnemonicParsing="false" text="Регистрация" />
+   </children>
+</AnchorPane>
